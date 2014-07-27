@@ -4,6 +4,11 @@
 ## we already have, saving computation time by just
 ## looking up the precomputed inverse if we can.
 
+## The logic of this code closely parallels the scheme used
+## in the problem statement, which can be found at
+## https://class.coursera.org/rprog-005/human-grading/view
+## /courses/972576/assesments/3/submissions.  
+
 ## Puts a matrix x in the right form for us to do caching.
 
 makeCacheMatrix <- function(x = matrix()) {
